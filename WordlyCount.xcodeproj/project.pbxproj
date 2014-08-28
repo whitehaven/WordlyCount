@@ -28,7 +28,9 @@
 		1C2AF94A19AEEC5E000C91DC /* WordlyCount */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordlyCount; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2AF94D19AEEC5E000C91DC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1C2AF94F19AEEC5E000C91DC /* WordlyCount.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WordlyCount.1; sourceTree = "<group>"; };
-		1C2AF95819AEEE4C000C91DC /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = "<group>"; };
+		1C2AF95819AEEE4C000C91DC /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Readme.md; path = ../Readme.md; sourceTree = "<group>"; };
+		1C2AF95919AEEE70000C91DC /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = SOURCE_ROOT; };
+		1C2AF95A19AEEFC1000C91DC /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +47,6 @@
 		1C2AF94119AEEC5E000C91DC = {
 			isa = PBXGroup;
 			children = (
-				1C2AF95819AEEE4C000C91DC /* Readme.md */,
 				1C2AF94C19AEEC5E000C91DC /* WordlyCount */,
 				1C2AF94B19AEEC5E000C91DC /* Products */,
 			);
@@ -63,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				1C2AF94F19AEEC5E000C91DC /* WordlyCount.1 */,
+				1C2AF95A19AEEFC1000C91DC /* input.txt */,
 				1C2AF94D19AEEC5E000C91DC /* main.cpp */,
 				1C2AF95719AEEC92000C91DC /* NonCoding */,
 			);
@@ -72,6 +74,8 @@
 		1C2AF95719AEEC92000C91DC /* NonCoding */ = {
 			isa = PBXGroup;
 			children = (
+				1C2AF95819AEEE4C000C91DC /* Readme.md */,
+				1C2AF95919AEEE70000C91DC /* License */,
 			);
 			name = NonCoding;
 			sourceTree = "<group>";
